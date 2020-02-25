@@ -42,3 +42,26 @@ align-items: center;
 .amount{
     border: 1px solid #68baa0;
 }
+@media(max-width: 500px) {
+    .amount-one, .amount-two{
+        width: 100%;
+    }
+    #currency-one, 
+    #currency-two{
+        margin-right: 5px;
+    }
+}
+
+.currency-title{
+    font-size: 15px;
+}
+.currency-value{
+    flex-direction: column;
+}
+#swap{
+    margin: 15px;
+}
+div#rate{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
